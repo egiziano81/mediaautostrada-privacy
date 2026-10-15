@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informativa privacy - Media Autostrada</title>
+<style>
+  :root { color-scheme: light dark; }
+  body {
+    max-width: 44rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem;
+    font: 16px/1.65 -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1b1b1b; background: #fff;
+  }
+  h1 { font-size: 1.9rem; line-height: 1.2; margin: 0 0 .3rem; }
+  h2 { font-size: 1.2rem; margin: 2.4rem 0 .6rem; }
+  p, li { margin: .7rem 0; }
+  ul, ol { padding-left: 1.4rem; }
+  a { color: #0b6b4f; }
+  code {
+    font: .9em ui-monospace, Consolas, monospace;
+    background: #f0f1f0; padding: .1em .35em; border-radius: 3px;
+  }
+  @media (prefers-color-scheme: dark) {
+    body { color: #e6e6e6; background: #161817; }
+    a { color: #7ed7b4; }
+    code { background: #262b29; }
+  }
+</style>
+</head>
+<body>
+<h1>Informativa privacy — Media Autostrada</h1>
+<p>Ultimo aggiornamento: 15 ottobre 2026</p>
+<h2>In breve</h2>
+<p>Media Autostrada non ha account, non raccoglie dati personali, non contiene pubblicità né strumenti di analisi, e non conserva lo storico dei tuoi viaggi.</p>
+<p>L&#x27;unico dato che esce dal telefono è la coordinata della posizione corrente, inviata ai server pubblici di OpenStreetMap per sapere su che tipo di strada ti trovi.</p>
+<h2>Posizione</h2>
+<p>L&#x27;app legge la posizione GPS <strong>solo mentre il monitoraggio è attivo</strong>, cioè mentre è visibile la notifica permanente. Quando il monitoraggio è fermo l&#x27;app non accede alla posizione.</p>
+<p>Per questo motivo l&#x27;app <strong>non richiede il permesso di posizione in background</strong>: la misura gira in un servizio in primo piano, che tu vedi e puoi interrompere in qualsiasi momento dalla notifica.</p>
+<p>La posizione serve a due cose:</p>
+<ol>
+<li><strong>calcolare sul telefono</strong> distanza percorsa, tempo e velocità media del tratto autostradale in corso;</li>
+<li><strong>capire se sei in autostrada</strong>.</li>
+</ol>
+<h2>Che cosa esce dal telefono</h2>
+<p>Per il punto 2 l&#x27;app invia latitudine e longitudine correnti, via HTTPS, a uno dei server pubblici Overpass del progetto OpenStreetMap. La risposta è l&#x27;elenco delle strade attorno a quel punto, con la loro classificazione.</p>
+<p>Alcune precisazioni su questa richiesta:</p>
+<ul>
+<li>non contiene identificativi del telefono, dell&#x27;app o dell&#x27;utente: è una domanda anonima del tipo «che strade ci sono attorno a questo punto?»;</li>
+<li>non viene inviata a ogni fix GPS. L&#x27;app memorizza le risposte per quadrati di circa 500 metri di lato, quindi in autostrada parte una richiesta ogni quindici secondi circa, non una al secondo;</li>
+<li>non parte affatto quando il monitoraggio è fermo;</li>
+<li>l&#x27;app non conserva le richieste né le risposte oltre la durata del viaggio.</li>
+</ul>
+<p>I server Overpass sono gestiti da terze parti indipendenti, con proprie informative: vedi la <a href="https://osmfoundation.org/wiki/Privacy_Policy">privacy policy della OpenStreetMap Foundation</a>. Come ogni richiesta su internet, il gestore del server vede l&#x27;indirizzo IP da cui arriva.</p>
+<h2>Che cosa resta sul telefono</h2>
+<ul>
+<li><strong>Le tue impostazioni</strong> (limite, tolleranza, intervallo degli avvisi e il resto), salvate solo sul dispositivo.</li>
+<li><strong>Nient&#x27;altro.</strong> Il tratto in corso vive in memoria e viene azzerato quando esci dall&#x27;autostrada o fermi il monitoraggio. Non esiste uno storico dei viaggi, né sul telefono né altrove.</li>
+</ul>
+<p>Disinstallando l&#x27;app, le impostazioni spariscono con lei.</p>
+<h2>Microfono, rubrica, altri dati</h2>
+<p>L&#x27;app non accede a microfono, fotocamera, contatti, file o identificativi pubblicitari. Usa la sintesi vocale di sistema per pronunciare l&#x27;avviso: è il telefono a parlare, nessun audio viene registrato o inviato.</p>
+<h2>Minori</h2>
+<p>L&#x27;app non è rivolta ai minori di 13 anni e non raccoglie consapevolmente dati che li riguardino.</p>
+<h2>Modifiche</h2>
+<p>Eventuali modifiche a questa informativa saranno pubblicate su questa pagina, con la data di aggiornamento in cima.</p>
+<h2>Contatti</h2>
+<p>Per domande su questa informativa: mrmiky@gmail.com</p>
+</body>
+</html>
